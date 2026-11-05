@@ -1,0 +1,46 @@
+{
+  "date": "2026-11-05",
+  "fresh_environment_install": "passed",
+  "full_reproduction": "passed",
+  "from_saved_workflow": "passed",
+  "reference_outputs_preserved": true,
+  "result_comparison_excluding_runtime_and_versions": "identical",
+  "generated_latex_files_identical": [
+    "table_profiles.tex",
+    "table_mesh.tex",
+    "table_mixed.tex",
+    "table_diagnostics.tex",
+    "numeric_values.tex",
+    "table_boundary.tex"
+  ],
+  "versions": {
+    "python": "3.12.14",
+    "numpy": "2.3.5",
+    "scipy": "1.17.0",
+    "cvxpy": "1.9.3",
+    "scs": "3.3.1",
+    "clarabel": "0.11.1",
+    "matplotlib": "3.10.8"
+  },
+  "numerical_core_seconds_this_machine": 34.66094756126404,
+  "validation": {
+    "stored_discrimination_certificates_checked": 186,
+    "max_repaired_completeness_residual": 4.625800143508077e-15,
+    "mesh_curvature_checks": [
+      {
+        "d": 8,
+        "relative_error": 5.501418279454946e-08
+      },
+      {
+        "d": 16,
+        "relative_error": 9.132143089164662e-08
+      }
+    ],
+    "kernel_residuals": [
+      5.920311005382468e-17,
+      6.009417147651486e-17,
+      4.189973694408623e-17
+    ],
+    "status": "passed"
+  }
+}

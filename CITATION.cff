@@ -1,0 +1,16 @@
+cff-version: 1.2.0
+message: "Please cite this software and the accompanying manuscript when using these calculations."
+type: software
+title: "Quantum Oracle Value Readout: Reproducibility Code and Data"
+authors:
+  - family-names: Ghadimi
+    given-names: Milad
+  - family-names: Soltanpanahi
+    given-names: Hesam
+  - family-names: Salari
+    given-names: Vahid
+abstract: >-
+  Numerical code and saved data accompanying Quantum Oracle Value Readout:
+  Coherence, Complementarity, and Fragility. Includes covariant discrimination
+  and coherence-robustness SDPs, coherent photonic-analyzer simulations,
+  mode-dependent loss examples, and validation of saved certificates.
